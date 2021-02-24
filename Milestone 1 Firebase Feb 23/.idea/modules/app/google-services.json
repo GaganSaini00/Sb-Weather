@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "567605697719",
+    "firebase_url": "https://sunshine-boys-app.firebaseio.com",
+    "project_id": "sunshine-boys-app",
+    "storage_bucket": "sunshine-boys-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567605697719:android:837a35d95e63e099684132",
+        "android_client_info": {
+          "package_name": "weather.app.simpleweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567605697719-e2u7up3ckrkbshqta3den8c25387f4le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "weather.app.simpleweather",
+            "certificate_hash": "ee6a23497d09bc983fb6b81ed3cf3c8a5b428d9d"
+          }
+        },
+        {
+          "client_id": "567605697719-3q5u822v4bsrmgs5nvfjkuqmur5ub85d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNhKiLdsOWLsdS4ijD3_ZpWY9TIpcKOYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567605697719-3q5u822v4bsrmgs5nvfjkuqmur5ub85d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
