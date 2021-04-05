@@ -80,7 +80,7 @@ def sendtoUserFirebase(db, sensordata):
 # The function to set up the record structure to be written to the database.
 # ====================================================================================================
 def setupData(air_pressure, timestamp):
-    sensor = {"Air_pressure": air_pressure,
+    sensor = {"Airpressure": air_pressure,
               "Timestamp": timestamp}  # always post the timestamps in epoch with the data to track the timing.
                                         # Store the data as the dictionary format in python  # refer to here:
                                         # https://www.w3schools.com/python/python_dictionaries.asp
