@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="weather.app.simpleweather">
+
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".sb_weather_app"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ManualActivity"></activity>
+        <activity android:name=".Pressure_Graph" />
+        <activity android:name=".Humid_Graph" />
+        <activity android:name=".Temperature_Graph" />
+        <activity android:name=".Pressure_Activity" />
+        <activity android:name=".Humid_Activity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/SettingBar" />
+        <activity
+            android:name=".LogoScreenActivity"
+            android:theme="@style/AppThemeRemove">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppThemeRemove" />
+        <activity android:name=".Temperature_Activity" />
+        <activity
+            android:name=".PasswordActivity"
+            android:theme="@style/AppThemeRemove" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppThemeRemove" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".Fragments.BottomNavigation" />
+    </application>
+
+</manifest>
