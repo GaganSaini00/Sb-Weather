@@ -37,15 +37,16 @@
 
     <TextView
         android:id="@+id/Ins"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="389dp"
+        android:layout_height="328dp"
         android:gravity="center_horizontal"
-        android:text="PUT TEXT HERE"
+        android:text="@string/manualtext"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.334" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
