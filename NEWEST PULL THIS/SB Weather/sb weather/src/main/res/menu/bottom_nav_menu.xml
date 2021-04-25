@@ -7,11 +7,11 @@
         android:title="@string/temperature" />
     <item
         android:id="@+id/action_Room2"
-        android:icon="@drawable/ic_baseline_house1_24"
+        android:icon="@drawable/ic_baseline_grain_24"
         android:title="@string/humidity" />
     <item
         android:id="@+id/action_Room3"
-        android:icon="@drawable/ic_baseline_local_florist_24"
+        android:icon="@drawable/ic_baseline_cloud_24"
         android:title="@string/airpressure"/>
 
 </menu>
