@@ -1,2 +1,0 @@
-include ':sb weather'
-rootProject.name = "SimpleWeather"
